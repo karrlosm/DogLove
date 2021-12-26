@@ -1,0 +1,138 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro | DogLove</title>
+    <link rel="stylesheet" href="../../css/loginAndRegister/loginAndRegister.css">
+    <link rel="stylesheet" href="../../css/loginAndRegister/gallery.theme.css">
+    <link rel="stylesheet" href="../../css/loginAndRegister/gallery.min.css">
+    <script src="../../controller/Cookie.js"></script>
+</head>
+<body>
+    <div class="gallery autoplay items-4">
+        
+        <div id="item-1" class="control-operator"> </div>
+        <div id="item-2" class="control-operator"> </div>
+        <div id="item-3" class="control-operator"> </div>
+        <div id="item-4" class="control-operator"> </div>
+
+        <figure class="item">
+            <h1><img src="../../img/loginAndRegister/002.jpg"></h1>
+        </figure>
+
+        <figure class="item">
+            <h1><img src="../../img/loginAndRegister/001.jpg"></h1>
+            
+        </figure>
+
+        <figure class="item">
+            <h1><img src="../../img/loginAndRegister/003.jpg"></h1>
+        </figure>
+
+        <figure class="item">
+            <h1><img src="../../img/loginAndRegister/004.jpg"></h1>
+        </figure>
+        
+
+        <div class="controls">
+            <a href="#item-1" class="control-button">.</a>
+            <a href="#item-2" class="control-button">.</a>
+            <a href="#item-3" class="control-button">.</a>
+            <a href="#item-4" class="control-button">.</a>
+           
+        </div>
+
+    </div>
+    <div class="lateral_right">
+        <h1 class="logo">DogLove</h1>
+        <div class="login_form">
+            <h2 class="login_label">Cadastro</h2> <br>
+            <form action="" method="post">
+                <fieldset>
+
+                    <div class="div_input">
+
+                        <label  id="campos"><img src="../../img/loginAndRegister/register/user.svg"/></label>
+                        <input  placeholder="Informe seu nome" class="input_camp"> <br>
+
+                    </div>
+
+
+                    <div class="div_input">
+
+                        <label for="email" id="campos"><img src="../../img/loginAndRegister/envelope.svg" alt=""></label>
+                        <input type="email" id="email" placeholder="Informe seu e-mail" class="input_camp"> <br>
+
+                    </div>
+    
+
+                    <div class="div_input">
+
+                        <label  id="campos"><img src="../../img/loginAndRegister/trancar.svg" alt=""></label>
+                        <input  id="password" placeholder="Informe sua senha" minlength="6" class="input_camp">
+
+                    </div>
+
+                    <div class="div_input">
+
+                        <label  id="campos"><img src="../../img/loginAndRegister/register/local.svg" alt=""></label>
+                        <select name="state" required class="input_camp" >
+                            <option disabled selected hidden>Informe seu estado</option>
+                            <option value="AC">AC</option>
+                            <option value="AL">AL</option>
+                            <option value="AP">AP</option>
+                            <option value="AM">AM</option>
+                            <option value="BA">BA</option>
+                            <option value="CE">CE</option>
+                            <option value="DF">DF</option>
+                            <option value="ES">ES</option>
+                            <option value="GO">GO</option>
+                            <option value="MA">MA</option>
+                            <option value="MT">MT</option>
+                            <option value="MS">MS</option>
+                            <option value="MG">MG</option>
+                            <option value="PA">PA</option>
+                            <option value="PB">PB</option>
+                            <option value="PR">PR</option>
+                            <option value="PI">PI</option>
+                            <option value="RJ">RJ</option>
+                            <option value="RN">RN</option>
+                            <option value="RS">RS</option>
+                            <option value="RO">RO</option>
+                            <option value="RR">RR</option>
+                            <option value="SC">SC</option>
+                            <option value="SP">SP</option>
+                            <option value="SE">SE</option>
+                            <option value="TO">TO</option>
+                        </select>
+
+                    </div>
+
+                    <div class="div_input">
+
+                        <label  id="campos"><img src="../../img/loginAndRegister/register/local.svg" alt=""></label>
+                        <input placeholder="Informe sua cidade " class="input_camp">
+
+                    </div>
+
+                    <div class="div_input">
+
+                        <label  id="campos"><img src="../../img/loginAndRegister/register/local.svg" alt=""></label>
+                        <input placeholder="Informe seu bairro" class="input_camp">
+
+                    </div>
+
+                </fieldset>
+                <p id="gotoregister" class="button_p">Já possui cadastro?<a class="clickhere" href="../login_screen/login_index.html">  Clique aqui!</a> </p>
+                <button type="submit" class="submitBtn">Cadastrar</button>
+
+                    
+            </form>
+        </div>
+        <p class="aboutus">Sobre o DogLove</p>
+    </div>
+    <script src="../../controller/register_screen/script.js"></script>
+    
+</body>
+</html>

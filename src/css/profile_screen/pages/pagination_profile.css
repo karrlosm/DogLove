@@ -1,0 +1,37 @@
+.paginationnn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    height: 80px;
+  
+    width: 70%;
+    
+  }
+
+
+.btn_page {
+    height: 40px;
+    width: 40px;
+    background: #A26DCC;
+    border: none;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn_page:hover{
+    background: #eb6b86;
+}
+
+.btn_page_index {
+    height: 50px;
+    width: 50px;
+    background: #B698D3;
+    color: white;
+    font-size: 30px;
+    border: none;
+    margin: 10px;
+    border-radius: 5px;
+    cursor:default;
+}

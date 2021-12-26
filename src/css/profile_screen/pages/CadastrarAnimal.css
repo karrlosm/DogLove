@@ -1,0 +1,91 @@
+
+
+.submitBtn {
+    border: 0;
+    width: 250px;
+    height: 30px;
+    background: #A26DCC;
+    border-radius: 15px;
+    color: #F5F5F5;
+    font-size: 15px;
+  }
+  
+  .submitBtn:hover{
+      cursor: pointer;
+      background:#F58585;
+  }
+
+  .input_camp{
+    font-size: 15px;
+    width: 250px;
+    height: 35px;
+    padding: 5px;
+    background: #F5F5F5;
+    color: #A26DCC;
+    border: 4px solid #F58585;
+    border-radius: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.div_sx{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #5269BA;
+}
+
+.descricao{
+    font-size: 15px;
+    color: #A26DCC;
+    border: 4px solid #F58585;
+    border-radius: 8px;
+    resize: none;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.label_form{
+    color:#A26DCC;
+    
+}
+
+.label_file {
+    display: flex;
+    font-size: 15px;
+    width: 250px;
+    height: 35px;
+    padding: 5px;
+    background: #F5F5F5;
+    color: #A26DCC;
+    border: 4px solid #F58585;
+    border-radius: 8px;
+    cursor: pointer;  
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    text-overflow: ellipsis;
+
+}
+
+.up_img {
+    margin-right: 5px;
+}
+
+
+
+.text_spam {
+
+    text-overflow: ellipsis;
+    overflow:hidden;
+    color: #A26DCC;
+}
+
+#arquivo {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+
+

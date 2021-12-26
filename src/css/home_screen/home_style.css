@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Peralta&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:"Questrial", sans-serif;
+}
+
+body {
+  width: 100%;
+  background-color: #BCD4EB;
+}
+
+
+header {
+  display: flex;   
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  background: #5269BA;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.logo{
+  position: absolute;
+  text-align: center;
+  font-size: 60px;   
+  color: #ffffff;
+  font-family:'Peralta', sans-serif;
+  padding: 35px;
+  cursor: default;
+
+}
+
+.perfil{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.perfil_vector{
+  margin-right: 40px;
+}
+
+.perfil_vector:hover{
+  cursor: pointer;
+}
+
+#page_name_line {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  top: 100px;
+  height: 50px;
+  background: #B698D3;
+  z-index: 1000;
+}
+
+#page_name_text{
+  text-align: center;
+  width:100%;
+  color: #ffffff;
+  font-size: 26px;
+  margin-top: 9px;
+  font-family:'Peralta', sans-serif;
+  
+
+}
+
+
+.filter_line {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width:1349px;
+  height: 40px;
+  background: #A26DCC;
+  top: 150px;
+  align-items: center;
+}
+
+
+.filter_camp {
+  font-size: 15px;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  width: 200px;
+  height: 30px;
+  background: #FEFFD6;
+  border: 4px solid #eb6b86;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.28);
+  border-radius: 10px;
+  padding-left: 7px;
+}
+
+
+
+
+#filter_search {
+  width: 638px;
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-end;
+  
+}
+
+
+.filter_vectors {
+  display: flex;
+  justify-content:flex-end;
+  margin-right: 10px;
+  width: 50px;
+  flex-shrink: 0;
+  font-size: 18px;
+  align-items: center;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  width: 1349px;
+  height: 100px;
+  background: #5269BA;
+  color: #ffffff;
+  
+}
+
+.label_footer {
+  margin-left: 30px;
+}
+
+.label_footer:hover {
+  color: #eb6b86;
+  cursor: pointer;
+}
+
+.divisor {
+  cursor: default;
+  margin-left: 30px;
+}
+
+.pagination{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1349px;
+  height: 100px;
+
+  
+}
+
+
+
+
+
+
+
+
+

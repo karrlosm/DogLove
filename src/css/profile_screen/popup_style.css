@@ -1,0 +1,144 @@
+.modal {
+    position: fixed;
+    display: flex;
+    width: 73.3%;
+    height: 499px;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,0.4);
+    margin-top: 150px;
+    margin-left: 359px;;
+
+}
+
+
+
+#popup {
+
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 300px;
+    background: #5269BA;
+    border-radius: 10px;
+    border: 4px solid #F58585;
+
+}
+
+.data_animal{
+ 
+    display: flex;
+    align-items: center;
+    height: 230px;
+}
+
+.imgdog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 150px;
+    height: 180px;
+    border-radius: 8px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.imgdog img{
+    width: 150px;
+    height: 180px;
+    border-radius: 10px;
+    object-fit:cover;
+}
+
+.form_data {
+    display: flex;
+    flex-direction: column;
+}
+
+.pop_data {
+    display: flex;
+    align-items:center;
+    width: 260px;
+    margin-bottom: 5px;
+}
+
+.label_pop {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.label_resp {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    display: flex;
+    height: 65px;
+    justify-content: center;
+}
+
+
+
+.edit_bt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 18px;
+    border: none;
+    background: #fce839;
+    color: white;
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
+.edit_bt:hover {
+    background: #cabd43;
+}
+
+.delete_bt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 18px;
+    border: none;
+    background: #fa3a3a;
+    color: white;
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    margin-left: 10px;   
+}
+
+.delete_bt:hover {
+    background: #ca3030;
+}
+
+.svg_bt {
+    margin-right: 5px;
+}
+
+
+.svg_bt {
+    margin-right: 5px;
+}
+
+
+.close_svg {
+    
+    display: flex;
+    width: 490px;
+    justify-content: flex-end;
+    
+}
+
+.close {
+    cursor: pointer;
+}
+

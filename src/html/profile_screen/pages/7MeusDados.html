@@ -1,0 +1,150 @@
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil | DogLove</title>
+    <!-- css pages -->
+    <link rel="stylesheet" href="../../../css/profile_screen/profile_style.css">
+    <link rel="stylesheet" href="../../../css/profile_screen/pages/CadastrarAnimal.css">
+    <link rel="stylesheet" href="../../../css/profile_screen/pages/MeusDados.css">
+
+
+ 
+
+
+    <script src="../../../controller/Cookie.js"></script>
+    <script src="../../../controller/ValidateToken.js"></script>
+</head>
+
+<body id="topop">
+    <header>
+        <h1 class="logo">DogLove</h1>
+        <div class="home">
+            <a href="../../home_screen/home_index.html">
+                <label for="" title="Página principal" class="home_vector">
+                    <img src="../../../img/profile_screen/casa.svg" alt="">
+                </label>
+            </a>
+        </div>
+        <div class="logout">
+            <button id="logout_btn">
+                <img src="../../../img/profile_screen/logout.svg" alt="">
+            </button>
+        </div>
+    </header>
+
+    <div id="page_name_line">
+        <label for="" id="page_name_text">Perfil</label>
+    </div>
+
+
+
+    <div class="lateral_left">
+        <div>
+            <p class="user_name" id="user_name"></p>
+            <p class="user_city" id="user_city"></p>
+        </div>
+        
+        <nav>
+            <ul>
+                <li>
+                    <a href="./1CadastrarAnimal.html">
+                        <button name="0" id="register_animals"  class="button_left">Cadastrar animal</button>
+                    </a>
+                </li>
+                <li>
+                    <a href="./2MeusAnimais.html">
+                        <button name="1" id="my_animals" class="button_left">Meus animais</button>
+                    </a>
+                </li>
+                <li>
+                    <a href="./3MatchsRecebido.html">
+                        <button name="2" id="matchs_received" class="button_left">Matchs recebidos</button>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <button name="6" id="my_data" class="button_left">Meus dados</button>
+                    </a>
+                </li>
+               
+            </ul>
+        </nav>
+    </div>
+
+    
+
+    <div class="place">
+        <p id="plname" class="place_name">Meus Dados</p>
+    </div>
+    
+    <section class="content" id="content">
+        <div class="my_data">
+            <form action="" id="my_data_form">
+                <div class="pessoal">
+                    <div  class="label_data">
+                        <label for="" style="color: #5269BA;">Dados Pessoais</label> <br>
+                    </div>
+                    
+                    <div class="input_data">
+                        <label for="username" class="label_form">Nome: </label>
+                        <input type="text" id="username" class="input_camp_meus_dados input_camp" readonly>
+                    </div>
+                    <div class="input_data">
+                        <label for="email_user" class="label_form">Email: </label>
+                        <input type="email" id="email_user" class="input_camp_meus_dados input_camp" readonly>
+                    </div>
+                
+                    <div class="input_data">
+                        <label for="password_user" class="label_form">Senha: </label>
+                        <input type="password" id="password_user" class="input_camp_meus_dados input_camp" readonly>
+                    </div>
+              
+                    
+                </div>
+                
+                <div class="endereco">
+                    <div class="label_data">
+                        <label for="" style="color: #5269BA;;">Endereço</label> <br>
+                    </div>
+                    
+                    <div class="input_data">
+                        <label for="state_user" class="label_form">Estado: </label>
+                        <input type="text" id="state_user" class="input_camp_meus_dados input_camp" readonly>
+                        
+                    </div>
+                    <div class="input_data">
+                        <label for="city_user" class="label_form">Cidade: </label>
+                        <input type="text" id="city_user" class="input_camp_meus_dados input_camp" readonly>
+                    </div>
+                    <div class="input_data">
+                        <label for="district_user" class="label_form">Bairro: </label>
+                        <input type="text" id="district_user" class="input_camp_meus_dados input_camp" readonly>
+                    </div>
+   
+                </div>
+               
+                
+            </form> 
+            <div class="data_buttons">
+                    
+                    <button title="Liberar a edição dos campos" id='edit_bt' class="submitBtn">Mostrar dados</button> <br>
+                    <button title="Salvar alterações" id='save_bt' class="submitBtn">Salvar</button>
+            </div>
+        </div>
+       
+    </section>
+
+        <script src="../../../controller/profile_screen/model/UserSingleton.js"></script>
+
+        <!-- Full page -->
+        <script src="../../../controller/profile_screen/script.js"></script>
+        <script src="../../../controller/profile_screen/logout.js"></script>
+
+        <script src="../../../controller/profile_screen/service/MeusDadosService.js"></script>
+
+</body>
+
+</html>

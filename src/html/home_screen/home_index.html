@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DogLove</title>
+    <link rel="stylesheet" href="../../css/home_screen/home_style.css">
+    <link rel="stylesheet" href="../../css/home_screen/feed_style.css">
+    <link rel="stylesheet" href="../../css/profile_screen/popup_style.css">
+    <link rel="stylesheet" href="../../css/home_screen/popup_match.css">
+    <link rel="stylesheet" href="../../css/pagination/pagination_style.css">
+    <script src="../../controller/Cookie.js"></script>
+    <script src="../../controller/ValidateToken.js"></script>
+    
+</head>
+<body >
+    <div id="body">
+        
+    </div>
+    <header>
+        <h1 class="logo">DogLove</h1>
+        <div class="perfil">
+            <a href="../profile_screen/profile_index.html">
+
+                <label for="" title="Perfil do usuário" class="perfil_vector">
+                    <img src="../../img/home_screen/retrato.svg" alt="">
+                </label>
+                
+            </a>
+            
+        </div>
+        
+    </header>
+    <div id="page_name_line">
+        <label for="" id="page_name_text">Home</label>
+    </div>
+
+
+    
+    <div class="filter_line">
+        <label for="" class="filter_vectors" title="Filtragem por categorias"><img src="../../img/home_screen/filtro.svg" alt=""></label>
+        <div id="filter_lists">
+            <select name="racatype" id="racaselected" class="filter_camp">
+                <option>Raça específica</option>
+            </select>
+    
+            <select name="ordertype" id="orderselect" class="filter_camp">
+                <option>Ordenar</option>
+                <option value="recents">Mais recentes</option>
+                <option value="old">Mais antigos</option>
+                <option value="without_condition">Avaliação</option>
+            </select>
+    
+            <select name="location" id="locationselect" class="filter_camp">
+                            <option value="AC">Todos</option>
+                            <option value="AC">AC</option>
+                            <option value="AL">AL</option>
+                            <option value="AP">AP</option>
+                            <option value="AM">AM</option>
+                            <option value="BA">BA</option>
+                            <option value="CE">CE</option>
+                            <option value="DF">DF</option>
+                            <option value="ES">ES</option>
+                            <option value="GO">GO</option>
+                            <option value="MA">MA</option>
+                            <option value="MT">MT</option>
+                            <option value="MS">MS</option>
+                            <option value="MG">MG</option>
+                            <option value="PA">PA</option>
+                            <option value="PB">PB</option>
+                            <option value="PR">PR</option>
+                            <option value="PI">PI</option>
+                            <option value="RJ">RJ</option>
+                            <option value="RN">RN</option>
+                            <option value="RS">RS</option>
+                            <option value="RO">RO</option>
+                            <option value="RR">RR</option>
+                            <option value="SC">SC</option>
+                            <option value="SP">SP</option>
+                            <option value="SE">SE</option>
+                            <option value="TO">TO</option>
+            </select>
+        </div>
+
+        
+        
+    </div>
+
+    
+
+    <section class="content" id="content">
+
+    </section>
+    
+    <div class="pagination">
+        <button id="left" class="btn_page" title="Voltar uma página"><img src="../../img/home_screen/pagination/angulo-esquerdo.svg" alt=""></button>
+        <button id="index" class="btn_page_index" title="Página atual">1</button>
+        <button id="right" class="btn_page" title="Avançar uma página"><img src="../../img/home_screen/pagination/angulo-direito.svg" alt=""></button>
+    </div>
+    <footer>
+        <div id="aboutus" class="label_footer">Sobre o DogLove</div>
+        <div class="divisor">|</div>
+        <div id="contribuir" class="label_footer">Contribuir</div>
+    </footer>
+
+    <script src="../../controller/home_screen/script.js"></script>
+    <script src="../../controller/home_screen/services/FilterService.js"></script>
+    <!-- models -->
+    <script src="../../controller/home_screen/models/DogsSingleton.js"></script>
+    <!-- Pages -->
+    <script src="../../controller/home_screen/pages/PopUpMatchOrFav.js"></script>
+    <script src="../../controller/home_screen/pages/DogFeed.js"></script>
+    <script src="../../controller/home_screen/pages/PopUpAbout.js"></script>
+    <script src="../../controller/home_screen/pages/PopUpContibuir.js"></script>
+
+    <!-- services -->
+    <script src="../../controller/home_screen/services/DogFeedService.js"></script>
+
+</body>
+</html>
+

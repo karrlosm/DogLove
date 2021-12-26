@@ -1,0 +1,109 @@
+.grid{
+    scrollbar-color: #ffffff;
+    padding-top: 3%;
+    
+    max-height: 100%;
+    display: grid;
+    grid-template-columns: 0.6fr 0.6fr 0.6fr;
+    grid-gap: 60px;
+}
+
+.dog_conteiner {
+    width: 200px;
+    border: 4px solid #da9ef5;    
+    background-color: #ffffff;
+    border-radius:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dog_name{
+    color: #5269BA;
+    font-weight: bold;
+    font-size: 22px;
+}
+.dog_local{
+    color: #F58585;
+    font-size: 18px;
+}
+.dog_image img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    object-fit:cover;
+}
+
+.dog_image{
+    width: 150px;
+    height: 150px;
+    padding-top: 10%;
+}
+.conteiner_content{
+    max-width: 80%;
+
+}
+
+.dog_basic_info{
+    max-width: 100%;
+    min-width:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 4%;
+}
+.star_div{
+    display: contents;
+    width: 30%;
+}
+.text_div{
+    width: 70%;
+}
+
+.info_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10%;
+    
+}
+.info_button button{
+    cursor: pointer;
+    border-radius: 15px;
+    border-style: none;
+    width: 160px;
+    height: 30px;
+    color: #ffffff;
+    background-color: #5269BA;
+}
+
+.pagination{
+    max-width: 300px;
+    min-width:300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.previous_page{
+    
+    transform: rotateZ(-90deg);
+    
+}
+.next_page{
+    transform: rotateZ(90deg);
+}
+.last_page{
+    transform: rotateZ(180deg);
+}
+.number_page{
+    font-size: 30px;
+    font-weight: bold;
+    color: #5269BA;
+    
+}
+
+.info_button button:hover {
+    background-color: #F58585;
+}

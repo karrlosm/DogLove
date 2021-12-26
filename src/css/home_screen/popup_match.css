@@ -1,0 +1,76 @@
+.modal_feed{
+    position: fixed;
+    display: flex;
+    width: 1350px;
+    height: 540px;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,0.4);
+    z-index: 500;
+    margin-top: 150px;
+    
+}
+
+.fav_bt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 18px;
+    border: none;
+    background: #fce628;
+    color: white;
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
+.fav_bt:hover {
+    background: #f8c435;
+}
+
+.match_bt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 18px;
+    border: none;
+    background: #F58585;
+    color: white;
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    margin-left: 10px;   
+}
+
+.match_bt:hover {
+    background: #ff3838;
+}
+
+.message {
+    height: 65px;
+    width: 500px;
+    text-align: center;
+    color:white;
+}
+
+.tittle_bar{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    width: 490px;
+}
+
+.tittle_logo {
+    color: white;
+    font-size: 20px;
+    font-family: 'Peralta', sans-serif;
+}
+
+.text_about {
+    margin: 20px;
+    color: white;
+}
+

@@ -1,0 +1,111 @@
+
+.content{
+    width: 1349px;
+    padding-top: 180px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.grid{
+    scrollbar-color: #ffffff;
+    
+    max-height: 100%;
+    display: grid;
+    grid-template-columns: 0.6fr 0.6fr 0.6fr 0.6fr;
+    grid-gap: 60px;
+}
+.dog_conteiner {
+    width: 200px;
+
+    border: 4px solid #da9ef5;    
+    background-color: #ffffff;
+    border-radius:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dog_name{
+    color: #5269BA;
+    font-weight: bold;
+    font-size: 22px;
+}
+.dog_local{
+    color: #F58585;
+    font-size: 18px;
+}
+
+.dog_image img{
+    width: 150px;
+    height: 150px;
+    object-fit:cover;
+}
+
+.dog_image{
+    width: 150px;
+    height: 150px;
+    padding-top: 10%;
+}
+
+#male{
+    border-color: #5269BA;
+}
+#female{
+    border-color:#F58585;
+}
+
+.dog_name{
+    color: #5269BA;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.dog_local{
+    color: #F58585;
+    font-size: 1rem;
+}
+.dog_image img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+.dog_image{
+
+    padding-top: 10%;
+}
+.conteiner_content{
+    max-width: 80%;
+
+}
+
+.dog_basic_info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.star_div{
+    display: contents;
+    width: 30%;
+}
+.text_div{
+    width: 70%;
+}
+
+.info_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10%;
+    
+}
+.info_button button{
+    border-radius: 15px;
+    border-style: none;
+    width: 160px;
+    height: 30px;
+    color: #ffffff;
+    background-color: #5269BA;
+    cursor: pointer;
+}
